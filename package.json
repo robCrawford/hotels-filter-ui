@@ -1,0 +1,30 @@
+{
+  "name": "test",
+  "version": "0.0.0",
+  "description": "A test",
+  "main": "app.js",
+  "dependencies": {
+    "express": "~4.12.3",
+    "body-parser": "~1.12.2"
+  },
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "jasmine-node": "^1.14.5",
+    "karma": "^0.12.31",
+    "karma-jasmine": "^0.3.5",
+    "karma-phantomjs-launcher": "^0.1.4"
+  },
+  "scripts": {
+    "test": "jasmine-node test/jasmine-node/*.js --captureExceptions --verbose",
+    "test-karma": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": ""
+  }
+}

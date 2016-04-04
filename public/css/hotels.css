@@ -1,0 +1,29 @@
+body {
+    min-width: 320px;
+}
+.hotel-header h2{
+    padding-bottom: 0;
+    margin-bottom: -5px;
+}
+.hotel-title{
+	height: 42px;
+	overflow: hidden;
+	font-weight: bold;
+}
+.filters input {
+    width: 100%;
+    margin-bottom: 5px;
+}
+#update-sort{
+    margin: 5px 0 10px 0;
+}
+#results .description{
+    padding: 10px;
+    background: #eee;
+    margin-bottom: 12px;
+}
+ul{
+    list-style: none;
+    padding: 0 0 10px 0;
+    margin: 0;
+}
